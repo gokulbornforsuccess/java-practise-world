@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticVariableAndMethod",
+            "request": "launch",
+            "mainClass": "programs.StaticVariableAndMethod",
+            "projectName": "java-practise-world_84bd9e6a"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "programs.Arrays",
+            "projectName": "java-practise-world_84bd9e6a"
+        },
+        {
+            "type": "java",
             "name": "Looping",
             "request": "launch",
             "mainClass": "programs.Looping",
