@@ -28,12 +28,13 @@ public class CollectionPriorityQueue {
         }
         System.out.println("After");
         //usage of comparator: In terms of Integer if we want to change existing compare method
-        PriorityQueue<Student2> pqi = new PriorityQueue<>(new Comparator<Student2>() {
-            @Override
-            public int compare(Student2 o1, Student2 o2) {
-                return o1.getRoll() - o2.getRoll();
-            }
-        });
+//        PriorityQueue<Student2> pqi = new PriorityQueue<>(new Comparator<Student2>() {
+//            @Override
+//            public int compare(Student2 o1, Student2 o2) {
+//                return o1.getRoll() - o2.getRoll();
+//            }
+//        });
+        PriorityQueue<Student2> pqi = new PriorityQueue<>((a,b) -> a.getRoll() - b.getRoll() );
         List<Student2> stri = new ArrayList<>();
 
         pqi.add(new Student2(2,"Gokul"));
